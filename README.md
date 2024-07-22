@@ -15,12 +15,6 @@ This repository provides detailed instructions for setting up and running the LL
 - [Python](https://www.python.org/)
 - [Git](https://git-scm.com/)
 
-## Contact
-
-For further assistance, contact [Thomas Mathes](mailto:your.email@example.com).
-
-![Twitter Follow](https://img.shields.io/twitter/follow/your_twitter_handle?style=social)
-
 ## License
 
 This project is licensed under the MIT License.
