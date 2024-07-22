@@ -116,15 +116,4 @@ python run_model.py
 This project is licensed under the MIT License.
 
 ![MIT License](https://img.shields.io/badge/license-MIT-blue)
-
----
-
-## Buttons for Quick Navigation
-
-[![Homebrew](https://img.shields.io/badge/Install%20Homebrew-0071C5?logo=homebrew&style=for-the-badge)](https://brew.sh/)
-[![Python](https://img.shields.io/badge/Install%20Python-FFD343?logo=python&style=for-the-badge)](https://www.python.org/)
-[![Git](https://img.shields.io/badge/Install%20Git-F05032?logo=git&style=for-the-badge)](https://git-scm.com/)
-[![Hugging Face](https://img.shields.io/badge/Hugging%20Face-Transformers-orange?logo=transformers&style=for-the-badge)](https://huggingface.co/transformers/)
 ```
-
-Feel free to customize the contact information, Twitter handle, and any other specific details as needed. This `README.md` file includes all necessary steps in a clear and visually appealing format.
