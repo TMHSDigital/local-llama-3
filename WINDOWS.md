@@ -1,12 +1,12 @@
-# Setting Up LLaMA 3 on Windows Using Hugging Face
+# Setting Up LLaMA 3 on Windows
 
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
 ![Python Version](https://img.shields.io/badge/python-3.9-blue)
-![Hugging Face](https://img.shields.io/badge/Hugging%20Face-transformers-orange)
+![LLaMA 3](https://img.shields.io/badge/LLaMA-3-orange)
 
 ## Introduction
 
-This guide provides detailed instructions for setting up and running the LLaMA 3 model locally on your Windows machine using Hugging Face's Transformers library. Follow the steps below to get started.
+This guide provides detailed instructions for setting up and running the LLaMA 3 model locally on your Windows machine. Follow the steps below to get started.
 
 ## Prerequisites
 
@@ -40,23 +40,32 @@ python -m venv llama3_env
 llama3_env\Scripts\activate
 ```
 
-### 4. Install Hugging Face Transformers and Dependencies
+### 4. Install Required Packages
 
 Install the necessary packages:
 
 ```bash
-pip install transformers torch
+pip install torch
 ```
 
-[![Install Hugging Face Transformers](https://img.shields.io/badge/Install%20Transformers-orange?logo=transformers&style=for-the-badge)](https://huggingface.co/transformers/)
+[![Install Required Packages](https://img.shields.io/badge/Install%20Packages-orange?logo=pypi&style=for-the-badge)](https://pypi.org/)
 
-### 5. Acquire the Model
+### 5. Clone the Repository
+
+Clone the `local-llama-3` repository:
+
+```bash
+git clone https://github.com/TMHSDigital/local-llama-3.git
+cd local-llama-3
+```
+
+### 6. Acquire the Model
 
 #### Download the Model Weights
 
 You might need to download the model weights manually from the official source if they are not available on Hugging Face.
 
-### 6. Running the Model
+### 7. Running the Model
 
 Create a Python script (`run_model.py`) with the following content:
 
@@ -65,8 +74,8 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 import torch
 
 # Load the tokenizer and model
-tokenizer = AutoTokenizer.from_pretrained("facebook/llama-3", use_auth_token=True)
-model = AutoModelForCausalLM.from_pretrained("facebook/llama-3", use_auth_token=True)
+tokenizer = AutoTokenizer.from_pretrained("path/to/models", use_auth_token=True)
+model = AutoModelForCausalLM.from_pretrained("path/to/models", use_auth_token=True)
 
 # Tokenize input
 inputs = tokenizer("Hello, how are you?", return_tensors="pt")
@@ -79,7 +88,7 @@ with torch.no_grad():
 print(tokenizer.decode(outputs[0], skip_special_tokens=True))
 ```
 
-### 7. Running the Script
+### 8. Running the Script
 
 Run the script to generate text:
 
@@ -91,7 +100,6 @@ python run_model.py
 
 - [Python](https://www.python.org/)
 - [Git](https://git-scm.com/)
-- [Hugging Face Transformers](https://huggingface.co/transformers/)
 
 ## License
 
@@ -105,5 +113,5 @@ This project is licensed under the MIT License.
 
 [![Python](https://img.shields.io/badge/Install%20Python-FFD343?logo=python&style=for-the-badge)](https://www.python.org/downloads/)
 [![Git](https://img.shields.io/badge/Install%20Git-F05032?logo=git&style=for-the-badge)](https://git-scm.com/downloads)
-[![Hugging Face](https://img.shields.io/badge/Hugging%20Face-Transformers-orange?logo=transformers&style=for-the-badge)](https://huggingface.co/transformers/)
+[![LLaMA 3](https://img.shields.io/badge/LLaMA-3-orange?logo=llama&style=for-the-badge)](https://ollama.com/library/dolphin-llama3:latest/blobs/ea025c107c1c)
 ```

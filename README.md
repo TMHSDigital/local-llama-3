@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This repository provides detailed instructions for setting up and running the LLaMA 3 model locally on your machine using Hugging Face's Transformers library. Choose your operating system below to get started.
+This repository provides detailed instructions for setting up and running the LLaMA 3 model locally on your machine. Choose your operating system below to get started.
 
 [![MAC Setup](https://img.shields.io/badge/MAC-setup-blue)](MAC.md)
 [![Windows Setup](https://img.shields.io/badge/Windows-setup-green)](WINDOWS.md)
