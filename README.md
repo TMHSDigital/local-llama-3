@@ -1,6 +1,6 @@
 # LLaMA 3 Setup Instructions
 
-*DON'T FORGET TO DO THIS COMMAND*
+*DON'T FORGET TO INSTALL OLLAMA AND PULL THE MODEL YOU WANT TO USE*
 ```
 ollama pull llama3.1
 ```
