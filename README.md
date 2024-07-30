@@ -4,6 +4,7 @@
 ```
 ollama pull llama3.1
 ```
+![image](https://github.com/user-attachments/assets/1e8c9adc-09bd-4150-8812-ffa355641533)
 
 ## Introduction
 
