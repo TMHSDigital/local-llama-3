@@ -1,5 +1,10 @@
 # LLaMA 3 Setup Instructions
 
+*DON'T FORGET TO DO THIS COMMAND*
+```
+ollama pull llama3.1
+```
+
 ## Introduction
 
 This repository provides detailed instructions for setting up and running the LLaMA 3 model locally on your machine. Choose your operating system below to get started.
