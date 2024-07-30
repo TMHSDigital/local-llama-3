@@ -1,21 +1,39 @@
-MIT License
+DO NO HARM LICENSE
 
-Copyright (c) 2024 T
+TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+1. Preamble
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+Most software today is developed with little to no thought of how it will be used, or the impact it will have on the world. This license seeks to change that by making explicit the social norms and ethical considerations that should guide software development.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+2. Definitions
+
+- "License" shall mean the terms and conditions for use, reproduction, and distribution as defined by Sections 1 through 7 of this document.
+- "Licensor" shall mean the copyright owner or entity authorized by the copyright owner that is granting the License.
+- "You" (or "Your") shall mean an individual or Legal Entity exercising permissions granted by this License.
+- "Source" form shall mean the preferred form for making modifications, including but not limited to software source code, documentation source, and configuration files.
+
+3. Conditions
+
+You may use, reproduce, and distribute the Source form of the software, provided that You do not use the software to harm, oppress, or discriminate against individuals or groups. Specifically, You agree not to use the software for systems or activities that:
+
+- Promote violence or hate speech against individuals or groups based on race, religion, gender, sexual orientation, or other protected classes;
+- Facilitate surveillance, tracking, or data collection for the purpose of discrimination or oppression;
+- Develop or deploy weapons or military applications;
+- Engage in activities that could cause environmental harm.
+
+4. Redistribution
+
+You may reproduce and distribute copies of the Source form of the software, provided that you include a copy of this License with each copy.
+
+5. Disclaimer of Warranty
+
+Unless required by applicable law or agreed to in writing, Licensor provides the software on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+
+6. Limitation of Liability
+
+In no event and under no legal theory, whether in tort (including negligence), contract, or otherwise, unless required by applicable law, shall the Licensor be liable to You for damages, including any direct, indirect, special, incidental, or consequential damages of any character arising as a result of this License or out of the use or inability to use the software.
+
+7. Acceptance
+
+By using the software, you agree to the terms and conditions of this License.
